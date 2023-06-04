@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5EB8762A2BCA1900C16452 /* SecondryModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EB8752A2BCA1900C16452 /* SecondryModelView.swift */; };
+		CE5EB8782A2BCABD00C16452 /* SavingModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EB8772A2BCABD00C16452 /* SavingModelView.swift */; };
+		CE5EB89B2A2C582500C16452 /* FristTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EB89A2A2C582500C16452 /* FristTabView.swift */; };
+		CE5EB89D2A2C5A9400C16452 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EB89C2A2C5A9400C16452 /* SecondTabView.swift */; };
+		CE5EB8BA2A2C707F00C16452 /* AdvicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EB8B92A2C707F00C16452 /* AdvicesView.swift */; };
+		CE8085B32A2A4F6700F59859 /* WeekendFive_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8085B22A2A4F6700F59859 /* WeekendFive_AssignmentApp.swift */; };
+		CE8085B52A2A4F6700F59859 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8085B42A2A4F6700F59859 /* ContentView.swift */; };
+		CE8085B72A2A4F6D00F59859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8085B62A2A4F6D00F59859 /* Assets.xcassets */; };
+		CE8085BB2A2A4F6D00F59859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8085BA2A2A4F6D00F59859 /* Preview Assets.xcassets */; };
+		CE8085C52A2A505500F59859 /* IncomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8085C42A2A505500F59859 /* IncomeModel.swift */; };
+		CE8085C92A2AB2BA00F59859 /* FixedModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8085C82A2AB2BA00F59859 /* FixedModelView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE5EB8752A2BCA1900C16452 /* SecondryModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondryModelView.swift; sourceTree = "<group>"; };
+		CE5EB8772A2BCABD00C16452 /* SavingModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingModelView.swift; sourceTree = "<group>"; };
+		CE5EB89A2A2C582500C16452 /* FristTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristTabView.swift; sourceTree = "<group>"; };
+		CE5EB89C2A2C5A9400C16452 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
+		CE5EB8B92A2C707F00C16452 /* AdvicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicesView.swift; sourceTree = "<group>"; };
+		CE8085AF2A2A4F6700F59859 /* WeekendFive-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeekendFive-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8085B22A2A4F6700F59859 /* WeekendFive_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekendFive_AssignmentApp.swift; sourceTree = "<group>"; };
+		CE8085B42A2A4F6700F59859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE8085B62A2A4F6D00F59859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8085B82A2A4F6D00F59859 /* WeekendFive_Assignment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeekendFive_Assignment.entitlements; sourceTree = "<group>"; };
+		CE8085BA2A2A4F6D00F59859 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8085C42A2A505500F59859 /* IncomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeModel.swift; sourceTree = "<group>"; };
+		CE8085C82A2AB2BA00F59859 /* FixedModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedModelView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8085AC2A2A4F6700F59859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8085A62A2A4F6700F59859 = {
+			isa = PBXGroup;
+			children = (
+				CE8085B12A2A4F6700F59859 /* WeekendFive-Assignment */,
+				CE8085B02A2A4F6700F59859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8085B02A2A4F6700F59859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8085AF2A2A4F6700F59859 /* WeekendFive-Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8085B12A2A4F6700F59859 /* WeekendFive-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				CE8085C12A2A4F8C00F59859 /* Model */,
+				CE8085B42A2A4F6700F59859 /* ContentView.swift */,
+				CE8085C22A2A4F9600F59859 /* ViewModel */,
+				CE8085B22A2A4F6700F59859 /* WeekendFive_AssignmentApp.swift */,
+				CE8085B62A2A4F6D00F59859 /* Assets.xcassets */,
+				CE8085B82A2A4F6D00F59859 /* WeekendFive_Assignment.entitlements */,
+				CE8085B92A2A4F6D00F59859 /* Preview Content */,
+				CE5EB89A2A2C582500C16452 /* FristTabView.swift */,
+				CE5EB89C2A2C5A9400C16452 /* SecondTabView.swift */,
+				CE5EB8B92A2C707F00C16452 /* AdvicesView.swift */,
+			);
+			path = "WeekendFive-Assignment";
+			sourceTree = "<group>";
+		};
+		CE8085B92A2A4F6D00F59859 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE8085BA2A2A4F6D00F59859 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE8085C12A2A4F8C00F59859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8085C42A2A505500F59859 /* IncomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE8085C22A2A4F9600F59859 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE8085C82A2AB2BA00F59859 /* FixedModelView.swift */,
+				CE5EB8752A2BCA1900C16452 /* SecondryModelView.swift */,
+				CE5EB8772A2BCABD00C16452 /* SavingModelView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8085AE2A2A4F6700F59859 /* WeekendFive-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8085BE2A2A4F6D00F59859 /* Build configuration list for PBXNativeTarget "WeekendFive-Assignment" */;
+			buildPhases = (
+				CE8085AB2A2A4F6700F59859 /* Sources */,
+				CE8085AC2A2A4F6700F59859 /* Frameworks */,
+				CE8085AD2A2A4F6700F59859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WeekendFive-Assignment";
+			productName = "WeekendFive-Assignment";
+			productReference = CE8085AF2A2A4F6700F59859 /* WeekendFive-Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8085A72A2A4F6700F59859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE8085AE2A2A4F6700F59859 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CE8085AA2A2A4F6700F59859 /* Build configuration list for PBXProject "WeekendFive-Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8085A62A2A4F6700F59859;
+			productRefGroup = CE8085B02A2A4F6700F59859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8085AE2A2A4F6700F59859 /* WeekendFive-Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8085AD2A2A4F6700F59859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8085BB2A2A4F6D00F59859 /* Preview Assets.xcassets in Resources */,
+				CE8085B72A2A4F6D00F59859 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8085AB2A2A4F6700F59859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8085C92A2AB2BA00F59859 /* FixedModelView.swift in Sources */,
+				CE5EB8762A2BCA1900C16452 /* SecondryModelView.swift in Sources */,
+				CE8085C52A2A505500F59859 /* IncomeModel.swift in Sources */,
+				CE5EB89B2A2C582500C16452 /* FristTabView.swift in Sources */,
+				CE5EB89D2A2C5A9400C16452 /* SecondTabView.swift in Sources */,
+				CE5EB8782A2BCABD00C16452 /* SavingModelView.swift in Sources */,
+				CE8085B52A2A4F6700F59859 /* ContentView.swift in Sources */,
+				CE5EB8BA2A2C707F00C16452 /* AdvicesView.swift in Sources */,
+				CE8085B32A2A4F6700F59859 /* WeekendFive_AssignmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE8085BC2A2A4F6D00F59859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8085BD2A2A4F6D00F59859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CE8085BF2A2A4F6D00F59859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WeekendFive-Assignment/WeekendFive_Assignment.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeekendFive-Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = 94RFRU94AH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marimahmed.API-Assignment.WeekendFive-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8085C02A2A4F6D00F59859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WeekendFive-Assignment/WeekendFive_Assignment.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeekendFive-Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = 94RFRU94AH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marimahmed.API-Assignment.WeekendFive-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8085AA2A2A4F6700F59859 /* Build configuration list for PBXProject "WeekendFive-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8085BC2A2A4F6D00F59859 /* Debug */,
+				CE8085BD2A2A4F6D00F59859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8085BE2A2A4F6D00F59859 /* Build configuration list for PBXNativeTarget "WeekendFive-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8085BF2A2A4F6D00F59859 /* Debug */,
+				CE8085C02A2A4F6D00F59859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8085A72A2A4F6700F59859 /* Project object */;
+}
